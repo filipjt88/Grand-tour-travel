@@ -1,0 +1,165 @@
+
+:root {
+    --blue: #49bfff;
+    --white: #fff;
+    --gray: #333;
+    --transition: .4s ease;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.py-5 {
+    padding: 70px 0!important;
+}
+/* nav and slider - header  */
+
+.bg-light {
+    background: var(--blue)!important;
+}
+
+.navbar-brand {
+    color: var(--white)!important;
+    font-size: 2rem;
+}
+
+.navbar-brand:hover {
+    color: var(--gray)!important;
+    transition: var(--transition);
+}
+
+.nav-link {
+    color: var(--white)!important;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: var(--gray)!important;
+}
+
+.carousel-caption {
+    text-align: left;
+    top: 30%;
+}
+
+.carousel-item .btn-outline-dark {
+    color: var(--white)!important;
+    border-color: var(--white)!important;
+}
+
+.carousel-item .btn-outline-dark:hover {
+    color: var(--blue)!important;
+    background: var(--white)!important;
+}
+
+
+/* COUNTER */
+
+.counter i {
+    color: var(--blue);
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* END OF COUNTER */
+
+
+/* PLAN */
+
+.plan .icons {
+    width: 70px;
+    height: 70px;
+    background: var(--white);
+    margin: auto;
+    border-radius: 50%;
+    color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* END OF PLAN */
+
+
+/* PACKAGES */
+
+.packages .price {
+    position: relative;
+}
+
+.packages .tag {
+    display: inline-block;
+    background: var(--blue);
+    padding: 5px 10px;
+    color: var(--white);
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+}
+
+.packages i {
+   color: var(--blue);
+}
+/* END OF PACKAGES */
+
+
+/* enjoy the trip */
+
+.enjoy-the-trip {
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0, .5)),url(img/slide-palms.jpg);
+    padding: 150px 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+/* DESTINATIONS */
+
+.destinations .col-md-3 {
+    position: relative;
+}
+
+.destinations .stars {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    background: var(--blue);
+    color: var(--white);
+    padding: 3px;
+}
+
+/* END OF DESTINATIONS */
+
+/* contact */
+
+.contact {
+    color: lightgray;
+}
+
+.contact a {
+    color: var(--white);
+}
+
+.contact a:hover {
+    color: var(--blue);
+}
+
+.contact i {
+    color: var(--gray);
+    position: relative;
+    left: -30px;
+}
+
+/* footer */
+
+footer {
+    background: #333;
+}
+.fa-bootstrap {
+    background: #fff;
+    color: blueviolet;
+}
+
+
+
+
